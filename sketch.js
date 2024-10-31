@@ -3,7 +3,7 @@ let pulseOffset = 0;
 let drawnLines = []; // To store the drawn lines
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1000, 800);
   noFill();
   background(20);
   strokeWeight(2);
@@ -83,6 +83,6 @@ function drawGlitchLine(x1, y1, x2, y2) {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(1000, 800);
 }
 
